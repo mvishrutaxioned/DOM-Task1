@@ -179,7 +179,28 @@ nav ul li a.active::after {
   main styling starts here
 =================================*/
 
+/* tabs styling starts here */
+.tabs {
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+}
 
+.tabs li { margin-right: 4px; }
+
+.tabs li a {
+  padding: 6px 10px;
+  color: #a09999;
+  font-size: 11px;
+  letter-spacing: .5px;
+}
+
+.tabs li a:hover, 
+.tabs li a.active { 
+  color: #fff;
+  background: #8fd0a6;
+  transition: .5s ease;
+}
 
 
 

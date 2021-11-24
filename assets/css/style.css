@@ -301,7 +301,44 @@ nav ul li a.active::after {
 
 .gallery ul li { margin: 2px; }
 
+/* footer info styling starts here */
+.f-info {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.f-info span {
+  color: #606060;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+.f-info ul {
+  display: flex;
+  align-items: center;
+}
+
+.f-info ul li {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3f3f3;
+}
+
+.f-info ul li a {
+  border-radius: 50%;
+  color: #666;
+  font-size: 10px;
+  transition: .5s ease;
+}
+
+.f-info ul li:hover a { color: #000; }
 
  /*=================================
   footer styling ends here

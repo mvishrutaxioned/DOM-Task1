@@ -226,6 +226,80 @@ nav ul li a.active::after {
   footer styling starts here
 =================================*/ 
 
+/* footer content styling starts here */
+.f-content {
+  padding: 30px 0 8px 0;
+  border-bottom: 1px solid #464343;
+  color: #a09999;
+}
+
+.f-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+.f-content h2 {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.widget p, 
+.f-content ul li a {
+  color: #606060;
+  font-size: 12px;
+}
+
+.posts ul li {
+  width: 100%;
+  padding: 8px 0;
+  border-bottom: 1px solid #464343;
+}
+
+.posts ul li:nth-child(4) { border: none; }
+.posts ul li:nth-child(1) { padding-top: 12px; }
+
+.posts ul li a:hover {
+  color: #f3f3f3;
+  transition: .5s ease;
+}
+
+.widget p {
+  padding-top: 15px;
+  font-family: sans-serif;
+  line-height: 15px;
+}
+
+.posts ul li a, 
+.widget p {
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+.tags ul {
+  width: 90%;
+  margin-top: 12px;
+}
+
+.tags ul li { margin: 3px 1px; }
+
+.tags ul li a {
+  padding: 7px;
+  background: #8fd0a6;
+  color: #fff;
+  transition: .5s ease;
+}
+
+.tags ul li a:hover { background: #a09999; }
+
+.gallery ul {
+  padding-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery ul li { margin: 2px; }
 
 
 

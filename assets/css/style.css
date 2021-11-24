@@ -202,7 +202,21 @@ nav ul li a.active::after {
   transition: .5s ease;
 }
 
+/* tab content styling starts here */
+.tab-content > li { display: none; }
+.tab-content > li.show { display: flex; }
 
+.tab-content > li ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.tab-content > li ul li { border: 1px solid #fff; }
+
+.tab-content {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #666;
+}
 
 /*=================================
   main styling ends here

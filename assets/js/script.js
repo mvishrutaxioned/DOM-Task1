@@ -1,14 +1,17 @@
 $(document).ready(() => {
 
-    $('.menu').click(toggleNav)
-    $('#close').click(toggleNav)
-
-    function toggleNav() {
+    $('.menu').click((e) => {
         $('nav').toggleClass('slide')
         $('html, body').css({
             overflow: 'hidden'
         });
-    }
+    })
+    $('#close').click((e) => {
+        $('nav').toggleClass('slide')
+        $('html, body').css({
+            overflow: 'visible'
+        });
+    })
 
     var tabIndex = 0;
     showTab(1)

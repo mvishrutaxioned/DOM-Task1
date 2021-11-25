@@ -6,7 +6,7 @@ $(document).ready(() => {
     function toggleNav() {
         $('nav').toggleClass('slide')
         $('html, body').css({
-            overflow: 'visible'
+            overflow: 'hidden'
         });
     }
 
